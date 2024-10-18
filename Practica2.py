@@ -1,3 +1,5 @@
+#chuuya peluche
+
 import math
 #Ejemplo de hallar el x de una ecuación lineal, donde a y b son números ingresados por el usuario y r es el resultado de que debe dar y x el el valor que el programa debe mostrar.
 #ax+b=r
