@@ -12,7 +12,7 @@ r=a+b
 #Encontrando x
 if a != 0:
     x = (r-b)/a
-    print(f"El valor de x es: ", x)
+    print("La solución es: x = ",x)
 else:
     print("a no puede ser 0")
 
@@ -33,7 +33,7 @@ for i in range(-abs(c), abs(c) + 1):
         j = c // i
     if i + j == b:
         x = -i
-        print(f"x es ",x)
+        print("La solución es: x =",x)
         break
 else:
     print("No hay resultado")
@@ -52,6 +52,6 @@ print("Los valores son a=",a, "b=",b ,"y c=",c)
 discriminante = b**2 - 4*a*c
 if discriminante >= 0:
     x = (-b + math.sqrt(discriminante)) / (2 * a)
-    print("La solución es: x =",x)
+    print("La solución es x =",x)
 else:
     print("No hay resultado")
