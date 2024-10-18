@@ -50,7 +50,7 @@ def cierre2_multiplicacion(a, b):
 if __name__ == "__main__":
     print("Conmutativa Suma (4,6):", point_conmutativo(4,6))
     print("Conmutativa Multiplicación (6, 4):", point_multiplicacion(6,4))
-    print("Asociativa Suma (2, 5, 3):", asociads_suma(2,5,3))
+    print("Asociativa Suma (2, 5, 3):", asociados_suma(2,5,3))
     print("Asociativa Multiplicación (7, 9, 8):", asociados_de_multiplicacion(7,9,8))
     print("Distributiva (5, 4, 2):", distribucion_disc(5,4,2))
     print("Identidad Suma (9):", sumas_identidad(9))
