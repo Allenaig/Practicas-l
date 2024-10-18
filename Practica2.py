@@ -4,8 +4,8 @@ import math
 print("EJEMPLO 1 - Ecuación Lineal")
 print("ax+b=r")
 a=int(input("Ingresa un numero para a: "))
-b=int(input("Ingresa otro numero para b: "))
-r=a+b
+b=int(input("Ingresa un numero para b: "))
+r=int(input("Ingresa un numero para r: "))
 
 #Encontrando x
 if a != 0:
